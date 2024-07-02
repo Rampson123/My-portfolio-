@@ -1,0 +1,57 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Background-color: #f4f4f4;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Height: 100vh;
+    Margin: 0;
+}
+
+.container {
+    Background-color: #fff;
+    Padding: 20px;
+    Border-radius: 5px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    Width: 300px;
+}
+
+H2 {
+    Text-align: center;
+}
+
+Form {
+    Display: flex;
+    Flex-direction: column;
+}
+
+Label {
+    Margin-bottom: 5px;
+}
+
+Input {
+    Padding: 10px;
+    Margin-bottom: 10px;
+    Border: 1px solid #ccc;
+    Border-radius: 5px;
+}
+
+Button {
+    Padding: 10px;
+    Background-color: #5cb85c;
+    Color: white;
+    Border: none;
+    Border-radius: 2px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background-color: blue;
+}
+
+#message {
+    Margin-top: 10px;
+    Text-align: center;
+    Color: red;
+}
+

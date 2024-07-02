@@ -1,0 +1,105 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f4f4f4;
+}
+
+Nav {
+    Background-color: white;
+    box-shadow: inset black;
+}
+
+Nav ul {
+    List-style-type: none;
+    Margin: 0;
+    Padding: 0;
+    Overflow: hidden;
+    
+}
+
+Nav ul li {
+    Float: left;
+}
+
+Nav ul li a {
+    Display: block;
+    Color: black;
+    Text-align: center;
+    Padding: 14px 16px;
+    Text-decoration: none;
+}
+
+Nav ul li a:hover {
+    Background-color:lightblue;
+    border: solid; 
+}
+
+.brown{
+    margin-right: 40px;
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+.y{
+    margin-right: 30px;
+}
+.b{
+    margin-right: 30px;
+}
+
+.c{
+    margin-right: 30px;
+}
+.x{
+    margin-right: 30px;
+}
+.d{
+    margin-right: 30px;
+}
+.z{
+    margin-right: 30px;
+}
+.j{
+    margin-right: 30px;
+}
+.abt{
+    text-align: center;
+    font-size: larger;
+}
+.container {
+    Display: flex;
+    justify-content: space-between;
+    Align-items: center;
+}
+.text {
+    flex-wrap: 1;
+    Margin-left: 10px;
+}
+.image{
+    width: 200px;
+}
+.phone{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 70px;
+    height: 30px;
+}
+.mail{
+    display: inline-block;
+    margin-right: 70px;
+    height: 30px;
+}
+.web{
+    display: inline-block;
+    margin-right: 70px;
+    height: 30px;
+}
+:hover .phone{
+    cursor:pointer;
+}
+:hover .mail{
+    cursor:pointer;
+}
+:hover.web{
+    cursor:pointer;
+}
